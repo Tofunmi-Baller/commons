@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data/*.db*
+.env
+test-results/
+playwright-report/
+!.env.example
+
+# Rust build output
+contract/target/
